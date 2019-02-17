@@ -1,0 +1,6 @@
+name: des1
+recipe: pantheon
+config:
+  framework: drupal8
+  site: des1
+  id: 2c495caf-2fe2-4c94-a4d5-aabd2ec42053
