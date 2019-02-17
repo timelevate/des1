@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2a4aaf0b6090153d87ffe1221ed1cfad",
-    "content-hash": "6ab41b0af790ff28d300e2372d2ade77",
+    "hash": "5d5fed242569b48cef14de2142e14f6b",
+    "content-hash": "74bec6e3c3fea4adf9c174f31ef27975",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1147,6 +1147,62 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2018-07-27 10:07:07"
+        },
+        {
+            "name": "drupal/adminimal_theme",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/adminimal_theme",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "af9cbce473d0bd9590889992200ed175cb7e1159"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1547996580",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "ANDiTKO",
+                    "homepage": "https://www.drupal.org/user/1428124"
+                },
+                {
+                    "name": "andrey.troeglazov",
+                    "homepage": "https://www.drupal.org/user/3145389"
+                },
+                {
+                    "name": "realityloop",
+                    "homepage": "https://www.drupal.org/user/139189"
+                }
+            ],
+            "description": "Drupal administration theme with modern minimalist design.",
+            "homepage": "https://www.drupal.org/project/adminimal_theme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/adminimal_theme",
+                "issues": "https://www.drupal.org/project/issues/adminimal_theme"
+            }
         },
         {
             "name": "drupal/bootstrap",

@@ -1,0 +1,22 @@
+uuid: 7f6923bf-788f-476d-a599-623a9805cfff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dstheme
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: dstheme_messages
+theme: dstheme
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

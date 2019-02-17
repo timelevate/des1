@@ -1,0 +1,22 @@
+uuid: 97942c46-9bd0-4176-a976-86ec99ea646f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dstheme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: dstheme_content
+theme: dstheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
